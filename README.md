@@ -51,10 +51,30 @@ In this section, describe the analysis you completed for the machine learning mo
 
 
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-The machine model used was trying to predict whether active loans were "healthy" or "high risk" (i.e. at risk of defaulting) based on the data provided. As seen in my Jupyter notebook, I split the loans into these two categories and can easily see how many loans are considered healthy or high risk by calling the value_counts command.
+The machine model used was trying to predict whether active loans were "healthy" or "high risk" (i.e. at risk of defaulting) based on the data provided. As seen in the Pandas code, the loans are split into two categories which makes it easier to see how many loans are considered healthy or high risk by calling the classification_report function.
   
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+
+Split the Data into Training and Testing Sets
+
+1. Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
+2. Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
+    NOTE
+   A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
+3. Split the data into training and testing datasets by using train_test_split.
+
+Create a Logistic Regression Model with the Original Data
+
+Use your knowledge of logistic regression to complete the following steps:
+1. Fit a logistic regression model by using the training data (X_train and y_train).
+2. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
+3. Evaluate the model’s performance by doing the following:
+ - Generate a confusion matrix using the "confusion matrix" function.
+ - Print the classification report.
+4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+
+
 
 * ## Results
 
