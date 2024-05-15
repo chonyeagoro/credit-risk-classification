@@ -86,4 +86,5 @@ Summarize the results of the machine learning models, and include a recommendati
 
 If you do not recommend any of the models, please justify your reasoning.
 
+Based on the resutls, the "logistic regression model fit with oversampled data" would be recommended to be used in the company. I has shown to be able to accurately 
 
