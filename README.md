@@ -49,7 +49,10 @@ In this section, describe the analysis you completed for the machine learning mo
     - Derogatory Marks
     - Total Debt
 
+
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+The machine model used was trying to predict whether active loans were "healthy" or "high risk" (i.e. at risk of defaulting) based on the data provided. As seen in my Jupyter notebook, I split the loans into these two categories and can easily see how many loans are considered healthy or high risk by calling the value_counts command.
+  
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
 
