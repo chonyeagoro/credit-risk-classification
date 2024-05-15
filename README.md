@@ -15,13 +15,7 @@ Open the starter code notebook and use it to complete the following steps:
 
 Create a Logistic Regression Model with the Original Data
 
-Use your knowledge of logistic regression to complete the following steps:
-1. Fit a logistic regression model by using the training data (X_train and y_train).
-2. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
-3. Evaluate the model’s performance by doing the following:
- - Generate a confusion matrix.
- - Print the classification report.
-4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+
 
 Write a Credit Risk Analysis Report
 
@@ -59,7 +53,7 @@ The machine model used was trying to predict whether active loans were "healthy"
 Split the Data into Training and Testing Sets
 
 1. Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
-2. Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
+2. Create the labels set (y) from the “loan_status” column (using lending_df["loan_status"]), and then create the features (X) [using lending_df.drop(columns=['loan_status'])] DataFrame from the remaining columns.
     NOTE
    A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
 3. Split the data into training and testing datasets by using train_test_split.
@@ -67,14 +61,13 @@ Split the Data into Training and Testing Sets
 Create a Logistic Regression Model with the Original Data
 
 Use your knowledge of logistic regression to complete the following steps:
-1. Fit a logistic regression model by using the training data (X_train and y_train).
-2. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
+1. the Logistic Regression model by creating a variable that is equal to "LogisticRegression(random_state=1)"
+1. Fit a logistic regression model by using the training data (X_train and y_train). Do this by using the "fit()" function. 
+2. Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model. Do this by creatig a variable that is equal to a "predict(X_test)" function. 
 3. Evaluate the model’s performance by doing the following:
- - Generate a confusion matrix using the "confusion matrix" function.
- - Print the classification report.
+ - Generate a confusion matrix using the "confusion_matrix" function.
+ - Print the classification report using the "classification_report" fucntion
 4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
-
-
 
 * ## Results
 
