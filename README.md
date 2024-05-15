@@ -8,9 +8,19 @@ In this Challenge, you’ll use various techniques to train and evaluate a model
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
-The purpose of this analysis is to 
+
+- The purpose of this analysis is to use supervised machine learning skills to create and evaluate the accuracy of a data model that predicts the credity worthiness of potential borrowers from lending services. 
 
 * Explain what financial information the data was on, and what you needed to predict.
+ - The data was provided in the form of a csv, which was into a Pandas dataframe. The categories in the dataframe include the following:
+    - Loan Size
+    - Interest Rate
+    - Borrower Income
+    - Debt to Income Ratio
+    - Number of Accounts
+    - Derogatory Marks
+    - Total Debt
+
 
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
