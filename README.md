@@ -74,5 +74,5 @@ Summarize the results of the machine learning models, and include a recommendati
 
 If you do not recommend any of the models, please justify your reasoning.
 
-Based on the resutls, the "logistic regression model fit with oversampled data" would be recommended to be used in the company. It has shown to be able to accurately predict which one of the loans are healthy loans (0) and which one are high-risk loans (1)
+Based on the resutls, the "logistic regression model fit with oversampled data" would be recommended to be used in the company. It has shown to be able to accurately predict which one of the loans are healthy loans (0) and which one are high-risk loans (1) with 0.99 (99%) accuracy. 
 
