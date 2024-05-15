@@ -4,18 +4,6 @@ Background
 
 In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
-Split the Data into Training and Testing Sets
-
-Open the starter code notebook and use it to complete the following steps:
-1. Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
-2. Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
-    NOTE
-   A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
-3. Split the data into training and testing datasets by using train_test_split.
-
-Create a Logistic Regression Model with the Original Data
-
-
 
 Write a Credit Risk Analysis Report
 
@@ -69,7 +57,7 @@ Use your knowledge of logistic regression to complete the following steps:
  - Print the classification report using the "classification_report" fucntion
 4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
-* ## Results
+## Results
 
 Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
@@ -86,5 +74,5 @@ Summarize the results of the machine learning models, and include a recommendati
 
 If you do not recommend any of the models, please justify your reasoning.
 
-Based on the resutls, the "logistic regression model fit with oversampled data" would be recommended to be used in the company. I has shown to be able to accurately 
+Based on the resutls, the "logistic regression model fit with oversampled data" would be recommended to be used in the company. It has shown to be able to accurately predict which one of the loans are healthy loans (0) and which one are high-risk loans (1)
 
