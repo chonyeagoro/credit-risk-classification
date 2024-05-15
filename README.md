@@ -21,7 +21,25 @@ In this section, describe the analysis you completed for the machine learning mo
     - Derogatory Marks
     - Total Debt
 
-
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+
+* ## Results
+
+Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
+
+- Accuracy Score: The accuracy score was .99 (99%), which means that the model performed with almost perfect accuracy.
+- Precision Score: The precision score for the healthy loans (0) was 1.00 (100%), while the precision score for high-risk loans (1) was 0.85 (85%). This means that the healthy loans had the most reliable precision. 
+- Recall Score: The recall score the healthy loans (0) was 0.99 (99%), while the recall score for the  high-risk loans (1) was 0.91 (91%). This means that the healthy loans had the most reliable 
+
+## Summary
+
+Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+
+* Which one seems to perform best? How do you know it performs best?
+* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+
+If you do not recommend any of the models, please justify your reasoning.
+
+
